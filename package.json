@@ -1,33 +1,11 @@
 {
-	"name": "@codeeditorland/playground",
-	"version": "0.0.1",
-	"private": false,
-	"description": "swc playground",
-	"keywords": [
-		"codeeditorland",
-		"land",
-		"playform"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SWCPlayground#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/SWCPlayground/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/SWCPlayground.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
 	"author": {
-		"name": "Source 🖋️ Open 👐🏻",
 		"email": "Source/Open@Editor.Land",
+		"name": "Source 🖋️ Open 👐🏻",
 		"url": "HTTPS://Editor.Land"
 	},
-	"type": "module",
-	"scripts": {
-		"build": "next build",
-		"dev": "next dev",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"start": "next start"
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/SWCPlayground/issues"
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^2.8.1",
@@ -47,6 +25,7 @@
 		"swr": "^2.2.4",
 		"ts-results": "^3.3.0"
 	},
+	"description": "swc playground",
 	"devDependencies": {
 		"@codeeditorland/wasm-typescript-esm": "^1.7.1",
 		"@gplane/tsconfig": "^6.1.0",
@@ -58,14 +37,35 @@
 		"tsx": "^4.10.4",
 		"undici": "^5.26.3"
 	},
-	"publishConfig": {
-		"access": "public"
-	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SWCPlayground#readme",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"name": "@codeeditorland/playground",
 	"pnpm": {
 		"peerDependencyRules": {
 			"ignoreMissing": [
 				"@babel/core"
 			]
 		}
-	}
+	},
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/SWCPlayground.git"
+	},
+	"scripts": {
+		"build": "next build",
+		"dev": "next dev",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"start": "next start"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
